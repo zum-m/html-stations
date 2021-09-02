@@ -1,12 +1,21 @@
-
-
-
-
-
-
-
-
-function getData() {
-    // Arrowという文字列を返す処理をアロー関数を入れて書きましょう。
-    return // ここにアロー関数の処理を書く
+const arrowFunction = () => {
+    return "Arrow"
 }
+
+function getData(){
+    return arrowFunction()
+}
+
+export {getData};
+
+
+
+
+
+
+
+
+// function getData() {
+//     // Arrowという文字列を返す処理をアロー関数を入れて書きましょう。
+//     return // ここにアロー関数の処理を書く
+// }
